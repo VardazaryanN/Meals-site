@@ -1,0 +1,96 @@
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+.container .recipe-title {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: bold;
+  margin: 2rem 0;
+  border-bottom: 1px solid #666;
+}
+.container .recipe-image {
+  width: 500px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.container .recipe-image img {
+  width: 100%;
+}
+.container .recipe-details {
+  width: 90%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  color: #333;
+  padding: 20px 0;
+  border: 1px double #333;
+  border-radius: 10px;
+  margin: 30px auto;
+}
+.container .recipe-details h6 {
+  margin-right: 30px;
+}
+.container .instructions {
+  font-size: 2rem;
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+.flexible {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 5rem;
+}
+table {
+  width: fit-content;
+  margin-bottom: 20px;
+  border: 5px solid #fff;
+  border-top: 5px solid #fff;
+  border-bottom: 3px solid #fff;
+  border-collapse: collapse;
+  outline: 3px solid #ffd300;
+  font-size: 18px;
+  background: #fff !important;
+  display: inline-block;
+}
+table th {
+  font-weight: bold;
+  padding: 7px;
+  background: #ffd300;
+  border: none;
+  text-align: left;
+  font-size: 20px;
+  border-top: 3px solid #fff;
+  border-bottom: 3px solid #ffd300;
+}
+table th span {
+  margin-left: 30px;
+}
+table td {
+  padding: 7px;
+  border: none;
+  border-top: 3px solid #fff;
+  border-bottom: 3px solid #fff;
+  font-size: 15px;
+  width: 50%;
+}
+table tbody tr:nth-child(even) {
+  background: #f8f8f8 !important;
+}
+
+.row {
+  display: inline-block;
+}
+.row h5 {
+  font-size: 3rem;
+  text-decoration: underline;
+  margin-bottom: 1rem;
+}
+iframe {
+  width: 600px;
+  height: 350px;
+}

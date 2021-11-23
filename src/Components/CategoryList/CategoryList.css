@@ -1,0 +1,44 @@
+.categories-list {
+  max-width: 100%;
+  margin: 0 auto;
+
+  background: rgb(250, 250, 249);
+  padding: 2rem 4rem;
+}
+.categories-list .categories-title {
+  text-align: center;
+  font-size: 4.5rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 30px;
+}
+.items-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2rem;
+}
+.btn {
+  display: block;
+  width: 250px;
+  height: 50px;
+  text-align: center;
+  background: #666;
+  color: gold;
+  font-size: 2rem;
+  line-height: 2rem;
+  border-radius: 10px;
+  padding: 15px 30px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: rgba(255, 217, 0, 0.383);
+  color: #666;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+.btn:active {
+  transform: translateY(2px);
+}

@@ -1,0 +1,22 @@
+.footer {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer .footer-text {
+  color: antiquewhite;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.footer .footer-text span {
+  color: gold;
+  font-size: 2rem;
+  font-style: italic;
+}

@@ -1,0 +1,21 @@
+.navbar {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar .navbar-link {
+  color: antiquewhite;
+  font-size: 3rem;
+  margin-right: 2rem;
+}
+.navbar .navbar-link:hover {
+  color: gold;
+  border-bottom: 1px solid gold;
+}

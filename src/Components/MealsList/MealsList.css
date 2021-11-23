@@ -1,0 +1,19 @@
+.meal-list {
+  max-width: 100%;
+  margin: 0 auto;
+
+  background: rgb(250, 250, 249);
+  padding: 2rem 4rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2rem;
+}
+.meal-list .meal-title {
+  text-align: center;
+  font-size: 4.5rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 30px;
+}
